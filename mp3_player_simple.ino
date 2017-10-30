@@ -38,7 +38,7 @@ const uint8_t volume = 0; // MP3 Player volume 0=max, 255=lowest (off)
 const uint16_t monoMode = 1;  // Mono setting 0=off, 3=max
 
 
-//In void setup you need to functions which are define below
+//In void setup you need two functions which are defined below
 void setup(){
   initSD();  // Initialize the SD card
   initMP3Player(); // Initialize the MP3 Shield
