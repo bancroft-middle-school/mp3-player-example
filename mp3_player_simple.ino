@@ -48,7 +48,7 @@ void loop()
 {
   
   uint8_t result = MP3player.playTrack(1); //plays track 1 (track001.mp3)
-  delay(3000); //delay for a little sanity between 
+  delay(3000); //delay for a little sanity between sounds
  }
  
 
